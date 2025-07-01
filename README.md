@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# ⚡ Neon To-Do
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Neon To-Do is a full-stack productivity app that lets users create, manage, and filter tasks by status and priority. Built with React on the frontend and a Node.js + Express backend, it uses JWT authentication for secure access.
 
-## Available Scripts
+![image](https://github.com/user-attachments/assets/b7933399-2a55-4268-bca9-70e6c2af76c8)
 
-In the project directory, you can run:
+## 🚀 Live Demo
 
-### `npm start`
+https://todotaskmanager-yfsc.onrender.com/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> Login to explore full features. Signup and token-based auth enabled.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## 🛠️ Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 🔐 JWT-based login and signup authentication
+- ✅ Add, delete, and manage tasks
+- 🔄 Mark tasks as Completed or Pending
+- 🚦 Set and change task priority (Low / Medium / High)
+- 🔍 Filter by status and priority
+- 🌈 Animated and glowing UI for a modern experience
+- 🌐 Responsive design with mobile-friendly layout
+- 🔔 Toast notifications for actions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🧰 Tech Stack
 
-### `npm run eject`
+### Frontend:
+- React.js
+- React Router
+- Tailwind CSS / Custom CSS
+- React Icons
+- React Toastify
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Backend:
+- Node.js + Express.js
+- MongoDB (Cloud DB)
+- JWT for Authentication
+- CORS + Middleware
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📦 Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 🖥️ Frontend (React)
+```bash
+git clone https://github.com/your-username/neon-todo.git
+cd neon-todo
+npm install
+npm start
