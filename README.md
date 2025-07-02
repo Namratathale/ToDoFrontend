@@ -6,7 +6,7 @@ Neon To-Do is a full-stack productivity app that lets users create, manage, and 
 
 ## 🚀 Live Demo
 
-(https://todotaskmanager-yfsc.onrender.com/login)
+(https://todotaskmanager-yfsc.onrender.com)
 
 > Login to explore full features. Signup and token-based auth enabled.
 
